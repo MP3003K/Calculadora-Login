@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <section id="caja">
+     <input type="text" id="n1" class="cajita"><br>
+    <input type="text" id="n2" class="cajita"><br>
+    <label for="a">Operaciones</label><br>
+    <input type="radio"  id="op1" name="operar" value="1" onchange="calcular()">Suma <br>
+    <input type="radio"  id="op2" name="operar" value="2" onchange="calcular()">Resta <br>
+    <input type="radio"  id="op3" name="operar" value="3" onchange="calcular()">Multiplicacion <br>
+    <input type="radio"  id="op4" name="operar" value="4" onchange="calcular()">Divicion <br>
+  <input type="text" id="resultado" class="resultado" disabled>   
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
